@@ -1,0 +1,98 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    /* The image used */
+    background-image: url("./image/main-img1.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    margin-top: -4%;
+}
+
+.nav-link {
+    color: rgb(226, 81, 81);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* second scroll start */
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: center;
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 16px;
+}
+/* second scroll end */
+/* third scroll */
+.about{
+    margin-left: 30%;
+}
+.about-img{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.img-about{
+    width: 60%;
+    height: 50%;
+}
+.form-main{
+    background-color: rgb(186, 194, 200);
+}
+.form{
+    margin: auto;
+  width: 30%;
+  border: 2px solid color(srgb rgb(250, 240, 240)); 
+  padding: 10px;
+  margin-top: 5%;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+  }
+
+  .social a {
+    color: #000000;
+    font-size: 1rem;
+    border: 1.6px solid #dbdbdb;
+    border-radius: 80%;
+    padding: .35rem;
+    text-align: center;
+
+  }
+
+  .social a:hover {
+    color: #ffffff;
+    background-color: #040404;
+    box-shadow: 0 0 20px #010101;
+    transition: all .3s ease-in-out;
+  }
+.name{
+    margin: auto;
+    width: 50%;
+    border: 2px solid color(srgb rgb(250, 240, 240)); 
+    padding: 10px;
+    margin-left: 40%;
+
+}
